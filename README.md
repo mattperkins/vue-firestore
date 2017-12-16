@@ -2,7 +2,10 @@
 
 # http://firestore.surge.sh/
 
-### CDN : Materialize CSS/JS + JQuery + Font Awesome
+## https://console.firebase.google.com/project/vue-firestore-17/overview
+
+## CDN : Materialize CSS/JS + JQuery + Font Awesome
+### http://materializecss.com/side-nav.html#options
 
 ## Build Setup
 
@@ -20,3 +23,4 @@ npm run build
 npm run build --report
 ```
 
+# deploy from dist folder
