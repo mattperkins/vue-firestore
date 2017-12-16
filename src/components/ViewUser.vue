@@ -17,6 +17,13 @@
       </ul>    
       <router-link to="/" class="btn black">Back</router-link>
       <button @click="deleteUser" class="btn red">Delete</button>
+
+      <div class="fixed-action-btn">
+        <router-link to="/newuser" class="btn-floating btn-large red">
+          <i class="fa fa-plus"></i>
+        </router-link>
+      </div>
+      
    </div>
 </template>
 

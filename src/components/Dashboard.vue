@@ -19,6 +19,7 @@
           <i class="fa fa-plus"></i>
         </router-link>
       </div>
+      
    </div>
 </template>
 
