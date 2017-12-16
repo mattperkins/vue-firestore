@@ -18,7 +18,7 @@
       <router-link to="/" class="btn black">Home</router-link>
       <button @click="deleteUser" class="btn red">Delete</button>
 
-      <div class="fixed-action-btn">
+      <div style="margin-top: 35px;">
         <router-link :to="{name: 'EditUser', params: {user_id: user_id}}" class="btn-floating btn-large red">
           <i class="fa fa-pencil"></i>
         </router-link>
