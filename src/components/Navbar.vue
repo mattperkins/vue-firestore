@@ -1,5 +1,9 @@
 <template>
-    <div id="navbar">
-        <h2>Navbar</h2>
-    </div>
+    <nav>
+        <div class="nav-wrapper green">
+            <div class="container">
+                <router-link to="/">Vue Firestore User Management App</router-link>    
+            </div>
+        </div>
+    </nav>
 </template>
