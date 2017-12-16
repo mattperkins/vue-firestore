@@ -15,15 +15,15 @@
           {{user_id}}
         </li>
       </ul>    
-      <router-link to="/" class="btn black">Back</router-link>
+      <router-link to="/" class="btn black">Home</router-link>
       <button @click="deleteUser" class="btn red">Delete</button>
 
       <div class="fixed-action-btn">
-        <router-link to="/newuser" class="btn-floating btn-large red">
-          <i class="fa fa-plus"></i>
+        <router-link :to="{name: 'EditUser', params: {user_id: user_id}}" class="btn-floating btn-large red">
+          <i class="fa fa-pencil"></i>
         </router-link>
       </div>
-      
+
    </div>
 </template>
 
